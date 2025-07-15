@@ -127,4 +127,3 @@ const styles = StyleSheet.create({
   footer: { flexDirection: 'row', marginTop: 30 },
   footerLink: { color: '#706CFD', fontWeight: 'bold' },
 });
-

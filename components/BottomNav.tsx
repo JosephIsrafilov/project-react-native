@@ -50,7 +50,7 @@ export default function BottomNav({ active = 'home' }) {
           label="Music"
           icon={<Ionicons name="musical-notes" size={28} color={active === 'music' ? "#8E97FD" : "#A0A3B1"} />}
           active={active === 'music'}
-          onPress={() => router.replace('/(tabs)/music')}
+          onPress={() => router.replace('/(tabs)/music-player')}
         />
         <NavButton
           label="Profile"
